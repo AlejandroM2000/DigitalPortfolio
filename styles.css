@@ -104,14 +104,14 @@ nav {
     margin-right: 1rem;
   }
 
-  .bio, .education, .work-experience, .projects, .skills{
+  .bio, .education, .work-experience, .projects{
     width: 50rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   }
   
-.bio h2, .education h2, .work-experience h2, .projects h2, .skills h2{
+.bio h2, .education h2, .work-experience h2, .projects h2{
     text-align: left;
     /* margin-bottom: var(--bottom-margin); */
   }
@@ -122,7 +122,7 @@ nav {
     padding: 0.3rem 0;
   }
 
-.education, .work-experience, .projects, .skills {
+.education, .work-experience, .projects {
     margin: 1rem auto;
     display:block;
     gap: 2.5rem;
@@ -155,3 +155,31 @@ div > ul {
 .job {
     margin-bottom: 1rem;
 }
+
+.skills {
+    max-width: 50rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
