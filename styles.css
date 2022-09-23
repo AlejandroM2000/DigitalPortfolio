@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+:root {
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #ADD8E6;
+    --primary-color:#fcfcfc ;
+    --secondary-color: #FFE5B4;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --text-shadow-color: #D3D3D3;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ nav ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--font-family);
+}
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav h1 {
+    color: var(--primary-color);
+  }
+
+  nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+
+  nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  nav ul li {
+    font-weight: var(--bold-font);
+  }
+
+  .burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+
+  .hero img {
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 10px;
+    float: left;
+    margin-right: 1rem;
+  }
+
+  .bio, .education, .work-experience, .projects, .skills{
+    width: 50rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  }
+  
+.bio h2, .education h2, .work-experience h2, .projects h2, .skills h2{
+    text-align: left;
+    /* margin-bottom: var(--bottom-margin); */
+  }
+  
+.bio p {
+    /* float: right; */
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+  }
+
+.education, .work-experience, .projects, .skills {
+    margin: 1rem auto;
+    display:block;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+}
+
+.school-attendance {
+    margin-bottom: 1rem;
+}
+section > h2 {
+    font-size:x-large;
+    border-bottom: 2px solid;
+    margin-bottom: 0.5rem;
+}
+p#school-year-name, p.job-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+#degree, .company-name{
+    font-size: medium;
+    color : #9b9b9b;
+}
+
+div > ul {
+    list-style-position: inside
+}
+
+.job {
+    margin-bottom: 1rem;
+}
