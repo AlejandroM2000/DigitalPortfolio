@@ -156,7 +156,7 @@ div > ul {
     margin-bottom: 1rem;
 }
 
-.skills {
+.skills, .contact {
     max-width: 50rem;
     margin: auto;
     text-align: center;
