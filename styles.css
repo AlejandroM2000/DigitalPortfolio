@@ -103,6 +103,9 @@ nav {
     float: left;
     margin-right: 1rem;
   }
+  .bio-text {
+    left: 50%;
+  }
 
   .bio, .education, .work-experience, .projects{
     width: 50rem;
